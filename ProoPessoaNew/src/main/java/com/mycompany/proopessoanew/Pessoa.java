@@ -45,6 +45,6 @@ public abstract class Pessoa {
         JOptionPane.showMessageDialog(null, "Nome: " + getNome() + "\nIdade: " + getIdade());
     }
 
-    // Método abstrato
+   
     public abstract String getNomeFormatado();
 }
