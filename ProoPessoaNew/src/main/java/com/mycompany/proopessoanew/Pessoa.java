@@ -8,17 +8,17 @@ public abstract class Pessoa {
     private String nome;
     private int idade;
 
-    // Construtor sem parâmetros
+    
     public Pessoa() {
     }
 
-    // Construtor com parâmetros
+    
     public Pessoa(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
     }
 
-    // Getters e Setters
+    
     public String getNome() {
         return nome;
     }
@@ -35,7 +35,7 @@ public abstract class Pessoa {
         this.idade = idade;
     }
 
-    // Métodos de leitura e impressão
+    
     public void lerDados() {
         this.nome = JOptionPane.showInputDialog("Digite o nome:");
         this.idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade:"));
