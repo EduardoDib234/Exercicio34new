@@ -10,22 +10,21 @@ public class Professor extends Pessoa {
     private double salario;
     private String titulo;
 
-    // Constante padrão para título
+    
     public static final String TITULO_DEFAULT = "Doutor";
 
-    // Construtor sem parâmetros
+   
     /*public*/ Professor() {
         this.titulo = TITULO_DEFAULT; // Valor padrão
     }
 
-    // Construtor com parâmetros
+    
     public Professor(String nome, int idade, double salario, String titulo) {
         super(nome, idade);
         this.salario = salario;
         this.titulo = titulo;
     }
 
-    // Getters e Setters
     public double getSalario() {
         return salario;
     }
